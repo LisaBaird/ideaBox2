@@ -2,13 +2,39 @@
 <html>
   <head>
     <link rel= "stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="path/to/your/jquery.min.js"><\/script>')</script>
     <meta charset="utf-8">
     <title>ideaBox2</title>
   </head>
-  <body>
 
-  <script= "script.js"></script>
+  <body>
+    <div>
+    <header><span>Idea</span><span>Box></span></header>
+
+  <section class= "generate">
+    <input class="my-idea" type="text" placeholder= "title">
+    <input class="my-descript" type="textarea" placeholder="body">
+    <button class="save" type="button">SAVE</button>
+    <input class="search" type="text" placeholder="search">
+  </section>
+  </div>
+
+
+<section class= "idea-container">
+  <article class = "idea-card idea-card-example">
+    <button class="delete" type='radio'>X</button>
+    <p class="stored-idea">Example Idea 1</p>
+      <textarea class="stored-descript">tiramisu cupcake with frosting.  Add sprinkles and then serve on a doily.  Next Fudge brownie with cream cheese frosting.</textarea>
+    <button class="up-btn" type ='radio'>U</button>
+    <button class="down-btn" type='radio'>D</button>
+    <ul class="quality">Quality: Swill </ul>
+      <li class="plausible"></li>
+      <li class="genius"><li>
+    </ul>
+  </article>
+</section>
+  <script src="index.js"></script>
   </body>
 </html>
